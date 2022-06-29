@@ -1,0 +1,38 @@
+<xs:element name="FestivaleRire">
+ <xs:complexType>
+<xs:sequence>
+	<xs:element name="participant">
+		<xs:complexType>
+               <xs:sequence>
+			 <xs:element name="to" type="xs:string"/>
+                        <xs:element name="idp" type="xs:int"/>
+                        <xs:element name="nom" type="xs:string"/>
+                        <xs:element name="prenom" type="xs:string"/>
+                        <xs:element name="tele" type="xs:int"/>
+                        <xs:element name="ville">
+                                <xs:complexType>
+                                     <xs:sequence>
+                             <xs:element name="idv" type="xs:int"/>
+                              <xs:element name="nom" type="xs:string"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                         <xs:element name="blague">
+                            <xs:complexType>
+                                     <xs:sequence>
+                             <xs:element name="idv" type="xs:int"/>
+                              <xs:element name="titre" type="xs:string"/>
+                              <xs:element name="contenu" type="xs:string"/>
+                              <xs:element name="nbrvote" type="xs:int"/>
+                               </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+	       <xs:complexType>
+            <xs:sequence>
+
+	</xs:element>
+
+
+</xs:sequence>
+</xs:complexType>
+</xs:element>
